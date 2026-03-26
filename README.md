@@ -47,14 +47,27 @@ https://drive.google.com/drive/folders/1OvxLtLZMgY7yqY8GHi6LAvFQO-8tJgfJ?usp=sha
 
 ## Citation
 ```bibtex
-@article{zhou2025semicp,
-  title={Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score},
-  author={Zhou, Xuanning and Zeng, Hao and Xia, Xiaobo and Jing, Bingyi and Wei, Hongxin},
-  journal={arXiv preprint arXiv:2505.21147},
-  year={2025}
+@misc{zhou2026semicp,
+      title={Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score}, 
+      author={Xuanning Zhou and Zihao Shi and Hao Zeng and Xiaobo Xia and Bingyi Jing and Hongxin Wei},
+      year={2026},
+      eprint={2505.21147},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.21147}, 
 }
 ```
 
 ## Acknowledgements
 
-This project builds upon [TorchCP](https://github.com/ml-stat-Sustech/TorchCP), a comprehensive toolbox for conformal prediction. We highly recommend it as a valuable resource for researchers and practitioners interested in conformal prediction.
+This project builds upon [TorchCP](https://github.com/ml-stat-Sustech/TorchCP), a comprehensive toolbox for conformal prediction. We highly recommend it as a valuable resource for researchers and practitioners interested in conformal prediction. If this project or the underlying codebase is useful for your research, please also cite:
+```bibtex
+@misc{huang2024torchcp,
+      title={TorchCP: A Python Library for Conformal Prediction}, 
+      author={Jianguo Huang and Jianqing Song and Xuanning Zhou and Bingyi Jing and Hongxin Wei},
+      year={2024},
+      eprint={2402.12683},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+}
+```
