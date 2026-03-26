@@ -1,0 +1,42 @@
+pretrain_model/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== Virtual Environment =====
+.env/
+.venv/
+env/
+venv/
+conda-env/
+*.egg-info/
+
+# ===== Logs & Outputs =====
+logs/
+*.log
+outputs/
+results/
+
+# ===== Checkpoints / Models =====
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# ===== Dataset =====
+data/
+datasets/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
